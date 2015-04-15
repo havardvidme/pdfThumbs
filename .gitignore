@@ -1,0 +1,6 @@
+# Mac OS X hidden files
+*.DS_Store
+*._*
+
+# MODX
+_build/build.config.php
