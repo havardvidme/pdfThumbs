@@ -1,5 +1,0 @@
-Changelog for pdfThumbs component.
-
-pdfThumbs 1.0.0
-================================================
-- Initial commit
