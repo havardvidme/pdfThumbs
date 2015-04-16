@@ -11,7 +11,7 @@ if (!class_exists('Imagick')) {
 }
 
 // Create the base url
-$base_url = $modx->getOption('baseUrl').'pdfthumbs/';
+$base_url = ltrim($modx->getOption('base_url').'pdfthumbs/', '/');
 
 // Set cache path, check it and create it if it's not there
 $cache_path = $modx->getOption('core_path').'cache/pdfthumbs/';
